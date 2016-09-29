@@ -10,17 +10,48 @@ html {
   -ms-text-size-adjust:100%;
   -webkit-text-size-adjust:100%;
   text-size-adjust:100%;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-html {
-    font-family: open-sans;
-}
-
 .img-flex {
   width: 100%;
   display: block;
+}
+
+body {
+  margin: 0;
+}
+
+dl {
+  margin: 0;
+}
+
+h1 {
+  margin-top: 0.53em;
+}
+
+h2 {
+  margin-top: 0.53em;
+}
+
+@media only screen and (min-width: 60em) {
+
+  h1 {
+    margin-top: 0.75em;
+  }
+
+  .grid {
+    margin-bottom: 0em;
+  }
+
+  figure {
+    margin-top: 0.75em;
+  }
+
+
+
 }
